@@ -1,0 +1,35 @@
+<idea-plugin>
+  <id>FluffyProgressBar</id>
+  <name>Fluffy Progress Bar</name>
+  <version>0.666</version>
+  <idea-version since-build="192"/>
+  <vendor email="krzysztofkorolczuk2@gmail.com">Krzysztof Korolczuk</vendor>
+
+  <description><![CDATA[
+      Beautiful progress bar with pink head of fluffy daemon. Plugin
+      makes your time wasted on project sync wait or indexing more fun
+      and hypnotize by the virtual world you ever dreamt of!
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <em>0.666 Code refactoring</em><br>
+      <em>0.665 Fixes for icons used</em><br>
+      <em>0.664 Apply better color</em><br>
+    ]]>
+  </change-notes>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+  <application-components>
+    <component>
+      <implementation-class>FluffyApplicationComponent</implementation-class>
+    </component>
+  </application-components>
+</idea-plugin>
