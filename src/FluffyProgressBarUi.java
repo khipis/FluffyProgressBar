@@ -24,7 +24,7 @@ public class FluffyProgressBarUi extends BasicProgressBarUI {
     private static final Color TELETUBBIES_BAR_COLOR = new Color(32, 156, 62);
     private static final Color THUNDERCATS_BAR_COLOR = new Color(124, 25, 22);
 
-    private static final Color PROGRESS_BAR_COLOR = MINIONS_BAR_COLOR;
+    private static final Color PROGRESS_BAR_COLOR = TELETUBBIES_BAR_COLOR;
 
     private static final Color[] PROGRESS_BAR_GRADIENT = new Color[]{
             PROGRESS_BAR_COLOR,
@@ -57,8 +57,8 @@ public class FluffyProgressBarUi extends BasicProgressBarUI {
     private Icon THUNDERCATS_LEFT = IconLoader.getIcon("/thunder-left.png");
     private Icon TELETUBBIES_RIGHT = IconLoader.getIcon("/tele-right.png");
     private Icon TELETUBBIES_LEFT = IconLoader.getIcon("/tele-left.png");
-    private Icon RIGHT_ICON = MINIONS_RIGHT;
-    private Icon LEFT_ICON = MINIONS_LEFT;
+    private Icon RIGHT_ICON = TELETUBBIES_RIGHT;
+    private Icon LEFT_ICON = TELETUBBIES_LEFT;
 
 
     public static ComponentUI createUI(JComponent c) {
