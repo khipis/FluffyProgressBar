@@ -1,0 +1,20 @@
+# Compiled source #
+###################
+*.pyc
+*.iml
+*.jar
+
+# Editors
+.ijwb
+.idea
+.vscode
+.project
+
+# Misc
+.env
+
+# Virtual env
+**/.venv
+
+/FluffyProgressBar.iml
+/out/
